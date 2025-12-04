@@ -1,0 +1,6 @@
+let num=5;
+for(let i=1;i<=num;i++){
+    let gap=" ".repeat(num-i);
+    let star="*".repeat(i);
+    console.log(gap+star);
+};
