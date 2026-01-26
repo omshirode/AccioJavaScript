@@ -13,3 +13,5 @@ console.log(arr);
 console.log(arr.includes(1));   //check its their or not
 console.log(arr.indexOf(4));    //check position of element
 console.log(arr.join(" - "));   //give spaces of choice
+console.log(...arr);   //spread operator
+console.log(arr.reverse());
